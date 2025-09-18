@@ -1,0 +1,5 @@
+# Ignore node_modules directory
+node_modules/
+
+# Exception: Don't ignore README.md even if other .md files are ignored
+!README.md

@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\HW and Projects\\webstore-team-project\\chain\\contracts\\StoreLogic.sol": {
+      "lastModificationDate": 1758212889375,
+      "contentHash": "5f167c7dfbeb9a63abfddd252e568e0d",
+      "sourceName": "contracts/StoreLogic.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "StoreLogic"
+      ]
+    }
+  }
+}
