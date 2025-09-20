@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\cd\\webstore-team-project-1\\web\\web.csproj": {}
+  },
+  "projects": {
+    "C:\\cd\\webstore-team-project-1\\web\\web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\cd\\webstore-team-project-1\\web\\web.csproj",
+        "projectName": "web",
+        "projectPath": "C:\\cd\\webstore-team-project-1\\web\\web.csproj",
+        "packagesPath": "C:\\Users\\Cтас\\.nuget\\packages\\",
+        "outputPath": "C:\\cd\\webstore-team-project-1\\web\\obj\\",
+=======
     "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj": {}
   },
   "projects": {
@@ -12,12 +25,13 @@
         "projectPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj",
         "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
         "outputPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\obj\\",
+>>>>>>> d86c2e6391d94e7f30c6d9bcb83e8652c8e2ee7a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cтас\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +40,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +63,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
