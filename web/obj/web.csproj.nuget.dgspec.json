@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vlad\\source\\repos\\web\\web.csproj": {}
+    "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vlad\\source\\repos\\web\\web.csproj": {
+    "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vlad\\source\\repos\\web\\web.csproj",
+        "projectUniqueName": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\Users\\Vlad\\source\\repos\\web\\web.csproj",
+        "projectPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj",
         "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vlad\\source\\repos\\web\\obj\\",
+        "outputPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
