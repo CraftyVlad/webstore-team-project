@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-contract StoreLogic {
+contract Store {
     // лишаєм івент?
     event ItemBought(uint256 id, address buyer, uint256 price);
 
