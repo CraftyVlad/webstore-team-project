@@ -1,37 +1,23 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\cd\\webstore-team-project-1\\web\\web.csproj": {}
+    "F:\\1A_GitHubRepos\\webstore-team-project\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\cd\\webstore-team-project-1\\web\\web.csproj": {
+    "F:\\1A_GitHubRepos\\webstore-team-project\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cd\\webstore-team-project-1\\web\\web.csproj",
+        "projectUniqueName": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\cd\\webstore-team-project-1\\web\\web.csproj",
-        "packagesPath": "C:\\Users\\Cтас\\.nuget\\packages\\",
-        "outputPath": "C:\\cd\\webstore-team-project-1\\web\\obj\\",
-=======
-    "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj": {}
-  },
-  "projects": {
-    "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj",
-        "projectName": "web",
-        "projectPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\web.csproj",
-        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-        "outputPath": "D:\\HW and Projects\\webstore-team-project1\\webstore-team-project\\web\\obj\\",
->>>>>>> d86c2e6391d94e7f30c6d9bcb83e8652c8e2ee7a
+        "projectPath": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\web.csproj",
+        "packagesPath": "D:\\dotnet-nuget",
+        "outputPath": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\Visual Studio\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cтас\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -40,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "c:\\program files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -100,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,23 +7,23 @@ namespace web.Models
 {
     public class ApplicationContext : DbContext
     {
-        public ApplicationContext()
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options) 
         { }
 
         public DbSet<Item> Items => Set<Item>();
         public DbSet<Review> Reviews => Set<Review>();
         public DbSet<Comment> Comments => Set<Comment>();
         public DbSet<Category> Categories => Set<Category>();
-        public DbSet<ItemCategory> ItemCategories => Set<ItemCategory>();
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("Data/appsettings.json")
-                .Build();
-            string connStr = config.GetConnectionString("SqlLiteConnection");
-            optionsBuilder.UseSqlite(connStr);
-        }
+		public DbSet<ItemCategory> ItemCategories => Set<ItemCategory>();
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    //var config = new ConfigurationBuilder()
+        //    //    .SetBasePath(Directory.GetCurrentDirectory())
+        //    //    .AddJsonFile("Data/appsettings.json")
+        //    //    .Build();
+        //    //string connStr = config.GetConnectionString("SqlLiteConnection");
+        //    //optionsBuilder.UseSqlite(connStr);
+        //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // використання Fluent API

@@ -1,0 +1,56 @@
+﻿@using web.Models.DTOs
+@using web.Models.Entities;
+@model Item;
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Product @Model.Id</title>
+	@* <link rel="stylesheet" href="~/css/Products.css" asp-append-version="true" /> *@
+</head>
+
+<body>
+
+	<div>
+		<div>@Model.Title</div>
+		<div>@Model.PriceEth</div>
+		<div>@Model.Description</div>
+		<div>
+			@foreach(Category category in Model.Categories) {
+				<div>@category.Name</div>
+			}
+		</div>
+
+		@* Оце напевно єдиний спосіб як можна провернути покупку якщо вона на js ну або якщо зробити input:hidden. Просто зробити тут onsubmit і функцію на js а там
+		вже треба буде перевірити чи існує взагалі продукт з таким id через fetch. Я в контролері ProductsController залишив для цього action *@
+		<form method="POST" data-id="@Model.Id" >
+				<button type="submit" >Buy</button>
+		</form>
+
+
+		<div>
+			@foreach(Review review in Model.Reviews)
+			{
+				<div>
+					<div class="review">
+						<div>@review.Rating</div>
+						<div>@review.Content</div>
+					</div>
+
+					@if (review.Replies.Any())
+					{
+						<div class="comments">
+							@(await Html.PartialAsync("~/Views/Comments/_CommentsPartial.cshtml", new CommentPartialDto { Comments = review.Replies, Margin = 10 }))
+						</div>
+					}
+				</div>				
+			}
+		</div>
+	</div>
+
+</body>
+
+
+@section Scripts {
+	
+}

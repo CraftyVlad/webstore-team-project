@@ -1,9 +1,27 @@
+using Microsoft.EntityFrameworkCore;
+using web.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// DB registering
+builder.Services.AddDbContext<ApplicationContext>((options) => 
+{
+    var connection = builder.Configuration.GetConnectionString("SqlLiteConnection");
+    options.UseSqlite(connection);
+});
+
 var app = builder.Build();
+
+// DB Initializing
+using (var scope = app.Services.CreateScope())
+{
+    var applicationContext = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+
+    await DbInitializer.Init(applicationContext);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -22,6 +40,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Products}/{action=GetProducts}/{id?}");
 
-app.Run();
+await app.RunAsync();

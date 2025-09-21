@@ -1,0 +1,20 @@
+﻿@using web.Models.DTOs
+@using web.Models.Entities
+
+@model CommentPartialDto;
+
+<div>
+	@foreach (Comment comment in Model.Comments)
+	{
+		<div class="comment" style="margin-left:@(Model.Margin)px" >
+			
+			<div>@comment.Content</div>
+			
+			@if (comment.Replies.Any())
+			{
+				@(await Html.PartialAsync("~/Views/Comments/_CommentsPartial.cshtml", new CommentPartialDto { Comments = comment.Replies, Margin = Model.Margin+5 }))
+			}
+
+		</div>
+	}
+</div>

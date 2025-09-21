@@ -1,0 +1,32 @@
+﻿@using web.Models.Entities;
+@model List<Item>;
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Products</title>
+	<link rel="stylesheet" href="~/css/Items/GetItems.css" asp-append-version="true" /> 
+</head>
+
+<body>
+
+	<div class="products" >
+		@foreach(Item item in Model) 
+		{
+			<a asp-action="GetProducts" asp-route-id="@item.Id">
+				<div>
+					<img src="@(item.Images[0])" alt="Not found" />
+					<div class="title" >@item.Title</div>
+					<div class="price" >@item.PriceEth ETH</div>
+					<div class="stock" >@(item.Stock == 0 ? "Out of stock" : item.Stock)</div>
+				</div>
+			</a>
+		}
+	</div>
+
+</body>
+
+
+@section Scripts {
+	
+}
