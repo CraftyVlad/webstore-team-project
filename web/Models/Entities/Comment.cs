@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string Content { get; set; }
+        public string Owner { get; set; }
         public Review Review { get; set; }
         public int ReviewId { get; set; }
         public Comment? Parent { get; set; }

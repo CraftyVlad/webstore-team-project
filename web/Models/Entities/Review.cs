@@ -6,6 +6,7 @@ namespace web.Models.Entities
     {
         public int Id { get; set; }
         public string Content { get; set; }
+        public string Owner { get; set; }
         [Range(0, 10)]
         public int Rating { get; set; }
         public Item Item { get; set; }

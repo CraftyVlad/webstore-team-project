@@ -1,61 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\",
+  "WorkspaceRootPath": "C:\\cd\\webstore-team-project\\web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\views\\comments\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\comments\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\views\\products\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\products\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\views\\products\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\products\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\entities\\itemcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\entities\\itemcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\itemcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|f:\\1a_githubrepos\\webstore-team-project\\web\\models\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\views\\comments\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\comments\\_commentspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\views\\products\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\products\\getproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\views\\products\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:views\\products\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\configurations\\reviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|c:\\cd\\webstore-team-project\\web\\models\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA2D789F-7662-4881-AF6E-33CA00DE7345}|web.csproj|solutionrelative:models\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,8 +94,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 16,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -78,115 +162,193 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Review.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Review.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Review.cs",
-              "RelativeToolTip": "Models\\Entities\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:40:27.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T12:36:09.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewConfiguration.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Configurations\\ReviewConfiguration.cs",
-              "RelativeDocumentMoniker": "Models\\Configurations\\ReviewConfiguration.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Configurations\\ReviewConfiguration.cs",
-              "RelativeToolTip": "Models\\Configurations\\ReviewConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\ItemDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ItemDto.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\ItemDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ItemDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:34:38.615Z",
+              "WhenOpened": "2025-09-22T16:17:18.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_CommentsPartial.cshtml",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Comments\\_CommentsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Comments\\_CommentsPartial.cshtml",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Comments\\_CommentsPartial.cshtml",
-              "RelativeToolTip": "Views\\Comments\\_CommentsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T12:20:21.303Z",
+              "DocumentIndex": 6,
+              "Title": "ReviewDto.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\ReviewDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ReviewDto.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\ReviewDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ReviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T16:07:22.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T16:18:19.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Comment.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Comment.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Comment.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Comment.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Comment.cs",
               "RelativeToolTip": "Models\\Entities\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T12:08:17.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Category.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Category.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Category.cs",
-              "RelativeToolTip": "Models\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:08:00.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetProduct.cshtml",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Products\\GetProduct.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\GetProduct.cshtml",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Products\\GetProduct.cshtml",
-              "RelativeToolTip": "Views\\Products\\GetProduct.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAACcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-21T10:04:50.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Program.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Program.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T10:03:31.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T16:41:27.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T15:36:35.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T16:42:38.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemCategory.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\ItemCategory.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ItemCategory.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\ItemCategory.cs",
+              "RelativeToolTip": "Models\\Entities\\ItemCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:52:48.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\CommentDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CommentDto.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\DTOs\\CommentDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T16:23:04.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Item.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Item.cs",
+              "RelativeToolTip": "Models\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T07:52:43.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Category.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Category.cs",
+              "RelativeToolTip": "Models\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:08:00.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_CommentsPartial.cshtml",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Views\\Comments\\_CommentsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comments\\_CommentsPartial.cshtml",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Views\\Comments\\_CommentsPartial.cshtml",
+              "RelativeToolTip": "Views\\Comments\\_CommentsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T12:20:21.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GetProducts.cshtml",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Products\\GetProducts.cshtml",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Views\\Products\\GetProducts.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\GetProducts.cshtml",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Views\\Products\\GetProducts.cshtml",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Views\\Products\\GetProducts.cshtml",
               "RelativeToolTip": "Views\\Products\\GetProducts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -195,68 +357,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Views\\Products\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\GetProduct.cshtml",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Views\\Products\\GetProduct.cshtml",
+              "RelativeToolTip": "Views\\Products\\GetProduct.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T10:04:50.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Review.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Entities\\Review.cs",
+              "RelativeToolTip": "Models\\Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:40:27.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReviewConfiguration.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Configurations\\ReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "Models\\Configurations\\ReviewConfiguration.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Configurations\\ReviewConfiguration.cs",
+              "RelativeToolTip": "Models\\Configurations\\ReviewConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:34:38.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "DbInitializer.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\DbInitializer.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Models\\DbInitializer.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\DbInitializer.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\DbInitializer.cs",
               "RelativeToolTip": "Models\\DbInitializer.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAYwFIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T08:17:03.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T08:17:03.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\ApplicationContext.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationContext.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\ApplicationContext.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\ApplicationContext.cs",
               "RelativeToolTip": "Models\\ApplicationContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T07:56:54.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T07:56:54.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ItemCategory.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\ItemCategory.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\ItemCategory.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\ItemCategory.cs",
-              "RelativeToolTip": "Models\\Entities\\ItemCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T07:52:48.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Item.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Item.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Item.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Entities\\Item.cs",
-              "RelativeToolTip": "Models\\Entities\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T07:52:43.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Configurations\\CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\cd\\webstore-team-project\\web\\Models\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "Models\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "F:\\1A_GitHubRepos\\webstore-team-project\\web\\Models\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\cd\\webstore-team-project\\web\\Models\\Configurations\\CategoryConfiguration.cs",
               "RelativeToolTip": "Models\\Configurations\\CategoryConfiguration.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvxYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T07:51:35.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T07:51:35.541Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

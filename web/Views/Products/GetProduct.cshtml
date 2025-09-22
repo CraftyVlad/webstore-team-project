@@ -20,6 +20,15 @@
 				<div>@category.Name</div>
 			}
 		</div>
+		@* rating *@
+		<div>
+			@{
+        		var rating = (Model.Reviews != null && Model.Reviews.Any())
+            		? (int)Model.Reviews.Average(r => r.rating) : 0;
+    		}
+    		Rating: @rating / 10</span>
+		</div>
+		
 
 		@* Оце напевно єдиний спосіб як можна провернути покупку якщо вона на js ну або якщо зробити input:hidden. Просто зробити тут onsubmit і функцію на js а там
 		вже треба буде перевірити чи існує взагалі продукт з таким id через fetch. Я в контролері ProductsController залишив для цього action *@

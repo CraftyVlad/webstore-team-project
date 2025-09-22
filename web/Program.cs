@@ -40,6 +40,29 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Products}/{action=GetProducts}/{id?}");
+    pattern: "{controller=Products}/{action=GetProduct}/{id?}");
+
+// Маршрути додавання
+app.MapControllerRoute(
+    name: "addProduct",
+    pattern: "add-product",
+    defaults: new { controller = "Products", action = "AddProduct" });
+
+app.MapControllerRoute(
+    name: "addReview",
+    pattern: "add-review",
+    defaults: new { controller = "Reviews", action = "AddReview" });
+
+app.MapControllerRoute(
+    name: "addComment",
+    pattern: "add-comment",
+    defaults: new { controller = "Comments", action = "AddComment" });
+
+app.MapControllerRoute(
+    name: "addCategory",
+    pattern: "add-category",
+    defaults: new { controller = "Categories", action = "AddCategory" });
+
+
 
 await app.RunAsync();
