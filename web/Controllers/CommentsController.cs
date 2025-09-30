@@ -64,6 +64,25 @@ namespace web.Controllers
 
             return Ok(new { message = "Comment added." });
         }
+
+        // Змінювати комент не треба
+        //[HttpPut("update/{id}")]
+
+        // ВИДАЛЕННЯ КОМЕНТАРЯ 
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteComment(int id)
+        {
+            // Знаходимо нашу категорію
+            Comment? comment = await _context.Comments.FirstOrDefaultAsync(i => i.Id == id);
+
+            if (comment == null) return NotFound(new { message = "Comment not found." });
+
+            _context.Comments.Remove(comment);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Comment deleted." });
+        }
         public IActionResult Error()
         {
             return View(

@@ -25,7 +25,7 @@ namespace web.Models.Configurations
                 configureJoinEntityType: bt =>
                 {
                     bt.HasKey(x => new { x.CategoryId, x.ItemId });
-                    bt.ToTable("BlogThemes");
+                    bt.ToTable("ItemCategories");
                 }
             );
         }

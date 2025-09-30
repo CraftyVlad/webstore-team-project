@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using web.Models;
 using web.Models.DTOs;
 using web.Models.Entities;
@@ -18,7 +19,7 @@ namespace web.Controllers
             _context = context;
         }
 
-        // ДОДАВАННЯ КОМЕНТАРЯ
+        // ДОДАВАННЯ КАТЕГОРІЇ
         [HttpPost("add")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryDto dto)
         {
@@ -37,6 +38,42 @@ namespace web.Controllers
 
             return Ok(new { message = "Category added." });
         }
+
+        // ЗМІНА КАТЕГОРІЇ 
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateCategory(int id, [FromBody] CategoryDto dto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // Знаходимо нашу категорію
+            Category? category = await _context.Categories.FirstOrDefaultAsync(i => i.Id == id);
+
+            if (category == null) return NotFound(new { message = "Category not found." });
+
+            category.Name = dto.Name;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Category updated." });
+        }
+
+        // ВИДАЛЕННЯ КАТЕГОРІЇ 
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            // Знаходимо нашу категорію
+            Category? category = await _context.Categories.FirstOrDefaultAsync(i => i.Id == id);
+
+            if (category == null) return NotFound(new { message = "Category not found." });
+
+            _context.Categories.Remove(category);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Category deleted." });
+        }
+
         public IActionResult Error()
         {
             return View(
