@@ -24,7 +24,7 @@
 		<div>
 			@{
         		var rating = (Model.Reviews != null && Model.Reviews.Any())
-            		? (int)Model.Reviews.Average(r => r.rating) : 0;
+            		? (int)Model.Reviews.Average(r => r.Rating) : 0;
     		}
     		Rating: @rating / 10</span>
 		</div>
